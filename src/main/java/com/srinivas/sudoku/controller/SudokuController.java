@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/solveSudoku")
-@CrossOrigin( origins = "http://localhost:3000")
+@CrossOrigin( origins = "https://sudoku-solver-reactapp.onrender.com")
 public class SudokuController {
 
     @Autowired
